@@ -4,7 +4,7 @@
             "name": "timerInfo",
             "type": "timerTrigger",
             "direction": "in",
-            "schedule": "15 0 * * *"
+            "schedule": "*/5 * * * * *"
         }
     ],
     "scriptFile": "../Functions.dll",
