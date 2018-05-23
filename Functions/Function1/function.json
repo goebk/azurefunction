@@ -1,0 +1,12 @@
+{
+    "bindings": [
+        {
+            "name": "timerInfo",
+            "type": "timerTrigger",
+            "direction": "in",
+            "schedule": "15 0 * * *"
+        }
+    ],
+    "scriptFile": "../Functions.dll",
+    "entryPoint": "Functions.Function1.Handler.Run"
+}
